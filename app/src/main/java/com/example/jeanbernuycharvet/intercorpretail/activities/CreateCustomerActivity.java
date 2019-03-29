@@ -1,8 +1,8 @@
 package com.example.jeanbernuycharvet.intercorpretail.activities;
 
 import android.app.DatePickerDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -99,9 +99,17 @@ public class CreateCustomerActivity extends AppCompatActivity {
             Customer customer = new Customer(name,ape,ed,fecha);
             databaseCustomer.child(id).setValue(customer);
             Toast.makeText(CreateCustomerActivity.this,"Cliente Agregado",Toast.LENGTH_LONG).show();
+            cleanFields();
 
         }else{
             Toast.makeText(CreateCustomerActivity.this,"Debe completar todos los campos",Toast.LENGTH_SHORT).show();
         }
+    }
+
+    private void cleanFields(){
+        nombre.setText("");
+        apellido.setText("");
+        edad.setText("");
+        fechaNacimiento.setText("");
     }
 }
