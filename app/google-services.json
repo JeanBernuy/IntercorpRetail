@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "398875979485",
+    "firebase_url": "https://intercorpretail-bb28c.firebaseio.com",
+    "project_id": "intercorpretail-bb28c",
+    "storage_bucket": "intercorpretail-bb28c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398875979485:android:cdf9c1ae7925a780",
+        "android_client_info": {
+          "package_name": "com.example.jeanbernuycharvet.intercorpretail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398875979485-j4v2t66ok0gop0r36iu3phoktd7j1it4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeanbernuycharvet.intercorpretail",
+            "certificate_hash": "b6735333e7cfe6d134c70bae46a4c1e9811a0585"
+          }
+        },
+        {
+          "client_id": "398875979485-3m4so76ag7mnafkvo53icf5n8rqnlekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXCQZz9WGjPVBtgQvEpUeYv7WVBc6eUsI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398875979485-3m4so76ag7mnafkvo53icf5n8rqnlekh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
