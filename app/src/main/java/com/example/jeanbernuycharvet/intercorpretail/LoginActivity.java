@@ -134,6 +134,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             public void onSuccess(LoginResult loginResult) {
                 if (loginResult!=null){
                     startActivity(new Intent(LoginActivity.this,CreateCustomerActivity.class));
+                    finish();
                 }else{
                     Toast.makeText(LoginActivity.this,"Ocurrió un error",Toast.LENGTH_LONG).show();
                 }

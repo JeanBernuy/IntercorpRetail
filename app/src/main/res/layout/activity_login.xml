@@ -37,13 +37,20 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_gravity="top"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginBottom="40dp">
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:background="@drawable/logo"
-                    android:layout_marginBottom="40dp"/>
+                    android:background="@drawable/logo"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="InterCorp Retail"
+                    android:textAlignment="center"
+                    android:textSize="18sp"/>
             </LinearLayout>
 
             <LinearLayout
